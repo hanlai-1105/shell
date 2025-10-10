@@ -47,9 +47,11 @@ cp ./data/raw/*event*.log ./data/processed/event_logs/
 <<<<<<< HEAD
 cd ./data/raw
 rm *ipaddr*
+cd ..
 cd user_logs
 rm *ipaddr*
 # 8. Create a file named ./data/inventory.txt that lists all the files in the subfolders of ./data/processed
+cd ..
 cd processed
 touch ./data/inventory.txt
 ls server_logs >> inventory.txt
