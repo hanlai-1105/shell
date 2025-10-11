@@ -56,10 +56,10 @@ cd ..
 cd ..
 cd data
 touch inventory.txt
-cd inventory.txt
-ls server_logs >> inventory.txt
-ls user_logs >> inventory.txt
-ls event_logs >> inventory.txt
+ls processed/server_logs >> inventory.txt
+ls processed/user_logs >> inventory.txt
+ls processed/event_logs >> inventory.txt
+
 
 
 
