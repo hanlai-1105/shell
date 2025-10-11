@@ -53,7 +53,10 @@ cd user_logs
 rm *ipaddr*
 # 8. Create a file named ./data/inventory.txt that lists all the files in the subfolders of ./data/processed
 cd ..
+cd ..
+cd data
 touch inventory.txt
+cd inventory.txt
 ls server_logs >> inventory.txt
 ls user_logs >> inventory.txt
 ls event_logs >> inventory.txt
